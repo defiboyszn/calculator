@@ -1,0 +1,32 @@
+body {
+   
+}
+.wrap{
+ 
+      display:grid;
+    margin:auto;
+    grid-template-columns:repeat(4,1fr);
+    grid-auto-rows:minmax(50px,auto);
+    
+}
+.screen{
+  grid-column:1/5;
+  padding: 2vh;
+  background: #F4FFFF;
+  font-size: 35px;
+  text-align: right;
+  overflow-x: auto;
+}
+.btn{
+  padding: 2vh;
+  background:#fff;
+  margin:1px;
+  font-size:25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 2px 0 #eee;
+}
+.zero{
+  grid-column: 1/3;
+}
